@@ -1,4 +1,4 @@
-package sudoku.io;
+package sudoku.model;
 
 public class InvalidPuzzleError extends Exception {
 	private static final long serialVersionUID = 1L;

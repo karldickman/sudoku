@@ -12,9 +12,6 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import sudoku.io.InvalidPuzzleError;
-import sudoku.io.PuzzleFactory;
-
 public class PuzzleTest {
 
 	private Puzzle four, six, nine, twelve, sixteen, twentyFive, squiggly;

@@ -11,7 +11,9 @@ import java.util.Set;
 import java.util.regex.PatternSyntaxException;
 
 import mapfile.MapfileReader;
+import sudoku.model.InvalidPuzzleError;
 import sudoku.model.Puzzle;
+import sudoku.model.PuzzleFactory;
 
 public class SdkReader {
 

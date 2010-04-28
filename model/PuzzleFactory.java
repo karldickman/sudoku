@@ -1,7 +1,6 @@
-package sudoku.io;
+package sudoku.model;
 
 import static java.lang.Math.sqrt;
-import sudoku.model.Puzzle;
 
 public class PuzzleFactory {
 

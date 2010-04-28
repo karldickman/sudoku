@@ -1,4 +1,4 @@
-package sudoku.io;
+package sudoku.model;
 
 import static java.util.Arrays.sort;
 import static org.junit.Assert.assertArrayEquals;
@@ -7,9 +7,6 @@ import static org.junit.Assert.fail;
 
 import org.junit.Before;
 import org.junit.Test;
-
-import sudoku.model.Puzzle;
-import sudoku.model.Square;
 
 public class PuzzleFactoryTest {
 

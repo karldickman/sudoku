@@ -11,7 +11,6 @@ import java.util.Scanner;
 import java.util.Set;
 
 import mapfile.ReadError;
-import sudoku.io.InvalidPuzzleError;
 import sudoku.io.SdkReader;
 
 public class Puzzle {
