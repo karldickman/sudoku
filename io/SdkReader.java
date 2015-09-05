@@ -11,6 +11,7 @@ import java.util.Set;
 import java.util.regex.PatternSyntaxException;
 
 import mapfile.MapfileReader;
+import mapfile.ReadError;
 import sudoku.model.InvalidPuzzleError;
 import sudoku.model.Puzzle;
 import sudoku.model.PuzzleFactory;
@@ -93,7 +94,7 @@ public class SdkReader {
 	}
 
 	/** Parse the file into a Puzzle instance. */
-	public Puzzle read() throws InvalidPuzzleError, mapfile.ReadError {
+	public Puzzle read() throws InvalidPuzzleError, ReadError {
 		Map<String, String> dictionary = mapfileReader.read();
 		List<Integer> squareList = loadSquares(dictionary.get("squares"));
 		int[] squares = new int[squareList.size()];
